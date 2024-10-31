@@ -32,18 +32,22 @@ Welcome to our Laravel project! This repository combines Laravel’s robust capa
   </li>
   <li>
     <p><strong>Configure the Environment</strong>:</p>
-    <ul><li>Copy the <code>.env.example</code> to <code>.env</code> and update the required configurations (database, cache, etc.)</li></ul>
+    <pre style="background-color:#F6F8FA; padding: 10px; border: 1px solid #D0D7DE; border-radius: 5px;">
+    cp .env.example .env 
+    or
+    copy .env.example .env
+    </pre>
   </li>
   <li>
     <p><strong>Generate Application Key</strong>:</p>
     <pre style="background-color:#F6F8FA; padding: 10px; border: 1px solid #D0D7DE; border-radius: 5px;">
-      php artisan key:generate
+    php artisan key:generate
     </pre>
   </li>
   <li>
     <p><strong>Migrate the Database</strong>:</p>
     <pre style="background-color:#F6F8FA; padding: 10px; border: 1px solid #D0D7DE; border-radius: 5px;">
-      php artisan migrate
+    php artisan migrate
     </pre>
   </li>
   <li>
