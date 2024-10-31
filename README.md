@@ -19,16 +19,16 @@ Welcome to our Laravel project! This repository combines Laravel’s robust capa
   <li>
     <p><strong>Clone the repository</strong>:</p>
     <pre style="background-color:#F6F8FA; border: 1px solid #D0D7DE; border-radius: 5px;">
-      git clone https://github.com/username/project-name.git
-      cd project-name
+    git clone https://github.com/username/project-name.git
+    cd project-name
     </pre>
   </li>
   <li>
     <p><strong>Install dependencies</strong>:</p>
-    <pre style="background-color:#F6F8FA; border: 1px solid #D0D7DE; border-radius: 5px;">
-      composer install
-      npm install && npm run dev
-    </pre>
+<pre style="background-color:#F6F8FA; border: 1px solid #D0D7DE; border-radius: 5px;">
+    composer install
+    npm install && npm run dev
+</pre>
   </li>
   <li>
     <p><strong>Configure the Environment</strong>:</p>
