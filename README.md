@@ -25,7 +25,7 @@ Welcome to our Laravel project! This repository combines Laravel’s robust capa
   </li>
   <li>
     <p><strong>Install dependencies</strong>:</p>
-    <pre style="background-color:#F6F8FA; padding: 10px; border: 1px solid #D0D7DE; border-radius: 5px;">
+    <pre style="background-color:#F6F8FA; border: 1px solid #D0D7DE; border-radius: 5px;">
       composer install
       npm install && npm run dev
     </pre>
