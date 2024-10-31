@@ -6,7 +6,7 @@
 Welcome to our Laravel project! This repository combines Laravel’s robust capabilities with the clean and versatile OneUI admin panel, delivering a dynamic and efficient backend. With user authentication managed by Laravel Breeze, image handling powered by a custom trait with Intervention Image, customizable user profiles, and Toastify alerts, this project is a solid foundation for any application.
 
 ## 🎯 Key Features
-- OneUI Admin Panel: A sleek, responsive admin dashboard that provides a professional look and feel, simplifying admin tasks and enhancing the user experience.
+- <strong>OneUI Admin Panel</strong> A sleek, responsive admin dashboard that provides a professional look and feel, simplifying admin tasks and enhancing the user experience.
 - User Authentication: Set up with Laravel Breeze for fast and secure authentication, ensuring a seamless login, registration, and password reset experience.
 - Profile Management: Each user can view and update their profile information, making the system more personalized and user-friendly.
 - Image Handling: Custom Laravel traits manage image upload, update, and delete functionality, making image management smooth and efficient.
@@ -19,8 +19,8 @@ Welcome to our Laravel project! This repository combines Laravel’s robust capa
   <li>
     <p><strong>Clone the repository</strong>:</p>
     <pre style="background-color:#F6F8FA; border: 1px solid #D0D7DE; border-radius: 5px;">
-    git clone https://github.com/username/project-name.git
-    cd project-name
+    git clone https://github.com/mhabuesa/laravel11_coreProject.git
+    cd laravel11_coreProject
     </pre>
   </li>
   <li>
