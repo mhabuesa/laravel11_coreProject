@@ -14,6 +14,46 @@ Welcome to our Laravel project! This repository combines Laravel’s robust capa
 
 ## 🚀 Getting Started
 
+
+<ol>
+  <li>
+    <p><strong>Clone the repository</strong>:</p>
+    <pre style="background-color:#F6F8FA; padding: 10px; border: 1px solid #D0D7DE; border-radius: 5px;">
+      git clone https://github.com/username/project-name.git
+      cd project-name
+    </pre>
+  </li>
+  <li>
+    <p><strong>Install dependencies</strong>:</p>
+    <pre style="background-color:#F6F8FA; padding: 10px; border: 1px solid #D0D7DE; border-radius: 5px;">
+      composer install
+      npm install && npm run dev
+    </pre>
+  </li>
+  <li>
+    <p><strong>Configure the Environment</strong>:</p>
+    <ul><li>Copy the <code>.env.example</code> to <code>.env</code> and update the required configurations (database, cache, etc.)</li></ul>
+  </li>
+  <li>
+    <p><strong>Generate Application Key</strong>:</p>
+    <pre style="background-color:#F6F8FA; padding: 10px; border: 1px solid #D0D7DE; border-radius: 5px;">
+      php artisan key:generate
+    </pre>
+  </li>
+  <li>
+    <p><strong>Migrate the Database</strong>:</p>
+    <pre style="background-color:#F6F8FA; padding: 10px; border: 1px solid #D0D7DE; border-radius: 5px;">
+      php artisan migrate
+    </pre>
+  </li>
+  <li>
+    <p><strong>Start the Server</strong>:</p>
+    <pre style="background-color:#F6F8FA; padding: 10px; border: 1px solid #D0D7DE; border-radius: 5px;">
+      php artisan serve
+    </pre>
+  </li>
+</ol>
+
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
 You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
