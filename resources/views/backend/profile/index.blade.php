@@ -49,11 +49,15 @@
                 <div class="mb-4">
                   <label class="form-label">Your Avatar</label>
                   <div class="mb-4">
-                    <img class="img-avatar" id="image" src="{{asset(auth()->user()->image)}}" alt="">
+                    @if (auth()->user()->image == null)
+                        <img class="img-avatar" id="image" src="https://placehold.co/50" alt="">
+                    @else
+                        <img class="img-avatar" id="image" src="{{asset(auth()->user()->image)}}" alt="">
+                    @endif
                   </div>
                   <div class="mb-4">
                     <label for="image" class="form-label">Choose a new avatar</label>
-                    <input class="form-control" id="image" type="file" name="image" onchange="document.getElementById('image').src = window.URL.createObjectURL(this.files[0])">
+                    <input class="form-control" id="image" type="file" accept="image/*" name="image" onchange="document.getElementById('image').src = window.URL.createObjectURL(this.files[0])">
                   </div>
                 </div>
                 <div class="mb-4">
